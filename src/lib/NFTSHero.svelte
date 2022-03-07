@@ -1,7 +1,6 @@
 
 <script>
 import { onMount } from 'svelte';
-import jquery from 'jquery';
 import potion from '../assets/potion.png';
 import backpack from '../assets/backpack.png';
 
