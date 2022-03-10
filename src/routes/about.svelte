@@ -56,8 +56,10 @@ let active3 = false;
 
 <div class="overlay-background"></div>
 <div class="about-text-container">
-  <h1>Lorem Ipsum</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+  <h1>LORE</h1>
+<p>Skylandia is a planet located in the metaverse of Genesya, which is inhabited by the Goddess Mintasya and the Mintos, a race of mortal humanoids.
+  The two have had a tumultuous relationship over the course of history, culminating in a tragic event where the Mintasya almost destroyed Eathlandia.
+</p>
 </div>
 <div class="key-points">
   <div class="map-lines"></div>
@@ -138,7 +140,7 @@ background-position: center;
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  z-index:8;
+  z-index:0;
 }
 		.about-text-container h1
 	{

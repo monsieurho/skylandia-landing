@@ -1,6 +1,7 @@
 <script>
 	import Header from '$lib/header/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import FooterMain from '$lib/FooterMain.svelte';
 	import '../app.css';
 	import PageTransition from "$lib/PageTransition.svelte";
   export let url;
@@ -24,12 +25,11 @@ import { onMount } from 'svelte';
 	<PageTransition {url}>
 	<slot />
 	</PageTransition>
+	
 </main>
-
-<footer>
+<FooterMain />
 	<Footer />
-	Copyright © 2022
-</footer>
+	
 
 <style>
 	main {
@@ -43,22 +43,14 @@ import { onMount } from 'svelte';
 		box-sizing: border-box;
 	}
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-		background-color:#111;
-		color:#fff;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
-	}
 
 
+
+
+
+
+
+
+	
 
 </style>

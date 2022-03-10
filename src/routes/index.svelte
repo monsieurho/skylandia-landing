@@ -21,10 +21,11 @@
 <div class="video-overlay"></div>
 
 <div class="hero-text-container">
-	  <h1>PLAY TO EARN MMORPG GAME</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-
-</p>
+	  <h1>MMORPG ADVENTURE FANTASY GAME</h1>
+  <p>
+	  Skykandia is a medieval fantasy massively multiplayer online role-playing game featuring PvP as a key game dynamic to incentivise players to team up.
+Create and join guilds (DAOs) to form alliances and fight for control of the world.
+  </p>
 <a class="getupdates-inline" href="/">Get updates</a>
 </div>
 

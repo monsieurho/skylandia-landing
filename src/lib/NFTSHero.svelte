@@ -3,6 +3,10 @@
 import { onMount } from 'svelte';
 import potion from '../assets/potion.png';
 import backpack from '../assets/backpack.png';
+import lands from '../assets/lands.png';
+import character from '../assets/character.png';
+
+
 
 
 onMount(async () => {
@@ -247,16 +251,16 @@ imagesLoaded(document.querySelectorAll('img'), () => {
 					<div style="display:none;" class="meta">Status</div>
 					<div id="slide-status">All items in Skylandia, from resources and consumables to castles, lands, sieges weapons, and mythical creatures, are tradable NFTs. Being a competitive game powerful equipment and other types of items are a must if players want to reach the top and stay there. </div>
 					<span data-slide-status="0">All items in Skylandia, from resources and consumables to castles, lands, sieges weapons, and mythical creatures, are tradable NFTs. Being a competitive game powerful equipment and other types of items are a must if players want to reach the top and stay there. </span>
-					<span data-slide-status="1">Endangered</span>
+					<span data-slide-status="1">All items in Skylandia, from resources and consumables to castles, lands, sieges weapons, and mythical creatures, are tradable NFTs. Being a competitive game powerful equipment and other types of items are a must if players want to reach the top and stay there. </span>
 					<span data-slide-status="2">All items in Skylandia, from resources and consumables to castles, lands, sieges weapons, and mythical creatures, are tradable NFTs. Being a competitive game powerful equipment and other types of items are a must if players want to reach the top and stay there. </span>
-					<span data-slide-status="3">Least Concern</span>
+					<span data-slide-status="3">All items in Skylandia, from resources and consumables to castles, lands, sieges weapons, and mythical creatures, are tradable NFTs. Being a competitive game powerful equipment and other types of items are a must if players want to reach the top and stay there. </span>
 				</div>
 			</div>
 
 			<img src={potion} alt=""/>
-			<img src={potion} alt="" />
+			<img src={character} alt="" />
 			<img src={backpack} alt="" />
-			<img src={backpack} alt="" />
+			<img src={lands} alt="" />
 
 			<div id="pagination">
 				<button class="active" data-slide="0"></button>
