@@ -327,7 +327,7 @@ You agree that the original English text shall prevail in the case of a dispute.
   position: fixed;
   bottom:90px;
   right:55px;
-  z-index:99;
+  z-index:20;
 }
 
 /* FOOTER MAIN MORE */
@@ -381,7 +381,7 @@ You agree that the original English text shall prevail in the case of a dispute.
   justify-content: center;
   color: #fff;
   position: relative;
-  z-index: 2;
+  z-index: 0;
 }
 .more-button:hover, .more-button:focus {
   box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.3);
@@ -545,7 +545,10 @@ You agree that the original English text shall prevail in the case of a dispute.
     color:white;  
     padding:40px;
     transition:all ease-in 0.2s;  
+    z-index:999;
 }
+
+
 
 .modal-map-inner
 {
@@ -597,6 +600,23 @@ height:500px;
 font-size:14px;
 }
 
+
+@media (max-width:768px)
+{
+.modal-map-inner
+{
+  padding:40px;  
+max-width:90%;
+height:70%;
+}
+.list-container {
+  position: fixed;
+  bottom:70px;
+  right:35px;
+  z-index:50;
+}
+}
+
 .activemodal {
   opacity:1;
   visibility:visible;
@@ -604,4 +624,6 @@ font-size:14px;
   left:0;
   transition:all ease-in .2s;
 }
+
+
 </style>

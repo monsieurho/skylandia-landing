@@ -153,3 +153,37 @@ body {
 	opacity: 0;
 	transition: opacity 0.4s ease-in-out, width 0.4s ease-in-out, height 0.4s ease-in-out;
 }
+
+@media (max-width: 768px) {
+	h1 {
+		font-family: 'headingsSkylandia', sans-serif;
+		line-height: 1;
+		font-size: 40px;
+	}
+
+	p,
+	span,
+	a,
+	div {
+		font-family: 'paragraphSkylandia', sans-serif;
+		line-height: 1.5;
+		font-size: 15px;
+	}
+
+	a {
+		letter-spacing: 0.1em;
+		text-decoration: none;
+	}
+
+	body {
+		min-height: 100vh;
+		max-width: 100vw;
+		margin: 0;
+		background-color: #161515;
+	}
+
+	/* removing scrollbar from body */
+	::-webkit-scrollbar {
+		display: none;
+	}
+}

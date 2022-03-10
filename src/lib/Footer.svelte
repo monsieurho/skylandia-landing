@@ -52,4 +52,11 @@ li svg{
     width:30px;
 }
 
+@media (max-width:768px)
+{
+  .bcn_social-bottom-container {
+display:none;
+}  
+}
+
 </style>

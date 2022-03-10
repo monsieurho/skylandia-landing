@@ -286,4 +286,21 @@ font-size:14px;
 		background-color: rgba(0,0,0,0.1);
 	}
 
+
+@media (max-width:768px)
+{
+  .compass
+{
+display:none;
+}
+.overlay-background
+	{
+		background-color: rgba(0,0,0,0.2);
+	}
+  .about-text-container
+{
+width:90%;
+}
+}
+
 </style>
